@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  margin-top: 25px;
+  font-family: var(--font1);
+  height: 74px;
+  /*background-color: red;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*--------------nav-left-and nav-right-------------*/
+.nav-left {
+   
+  display: flex;
+}
+
+.nav-left span{
+  font-size: 35px;
+  padding: 10px;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px; /*worid ka size baddana*/
+}
+
+.nav-left ul li {
+  font-family: var(--font2); /* color ko so kar rha hai*/
+  margin: 0 14px;
+   
+  list-style: none; /*li ho ya fir . point ho bo dikana bandh ho jhate hai*/
+}
+
+.nav-left ul li a:hover {
+   
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+.nav-left ul li a {
+  transition: all 0.3s ease-in-out; /**/
+  text-decoration: none; /**/
+  color:rgb(150, 112, 112);
+}
+
+ 
+
+/*---------------------------------Content----------------------------------------*/
+.content {
+  height: 100%;
+  display: flex;
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+  
+}
+
+.content::after{
+  content: "";
+  background-image: url('https://media.licdn.com/dms/image/D4D12AQHovEFK0nqRig/article-cover_image-shrink_720_1280/0/1681002030722?e=2147483647&v=beta&t=l0WNabXFKy93Rxc2ZoY2EffQIZqjqd6vdXJMyHRKIls');
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  opacity: 0.15;
+  align-items: center;
+  margin-right: 110px;
+  margin-left: 115px;
+}
+
+.content-left {
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 131px;
+  z-index: 1;
+}
+/*------------------------.content-right-----------------------------*/
+.content-right {
+   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+ 
+  height: 255px;
+  width: 255px;
+  border: 2px solid black;
+  border-radius: 155px;
+  margin:-75px;
+}
+
+/*---------------home-articles---------------------------------------*/
+
+.home-articles{
+  padding: 18px;
+  background-color: rgb(228, 166, 166);
+  margin-top: 23px;
+  position: relative;
+}
+
+.year-box{
+  position: absolute;
+  width:164px;
+  right:-3rem;
+  height: 164px;
+  font-size:15px;
+  top: 106px;
+
+}
+.year-box div{
+  margin: 12px 0px;
+}
+
+.home-article{
+  display: flex; 
+  margin: 25px;
+}
+
+.home-article img{
+  width: 250px;
+  border-radius: 13px;
+}
+
+.home-article-content {
+  align-self: center;
+  padding: 10px;
+  margin: 30px;
+}
+.home-article-content a{
+  text-decoration: none;
+  color: var(--main-bg-color);
+}
+
+/*.home-articles{}*/
+
+/*------------------footer-----------------------------*/
+
+.footer {
+  height: 50px;
+  background-color:var(--main-bg-color);
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  color: black;
+  flex-direction: column;
+  
+}
+
+.footer{
+    color: black;
+}
+ 

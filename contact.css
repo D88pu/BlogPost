@@ -1,0 +1,23 @@
+.contact-content{
+    
+    height: 100vh ;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  .contact-content::after{
+    content: "";
+    background-image: url('https://media.licdn.com/dms/image/D4D12AQHovEFK0nqRig/article-cover_image-shrink_720_1280/0/1681002030722?e=2147483647&v=beta&t=l0WNabXFKy93Rxc2ZoY2EffQIZqjqd6vdXJMyHRKIls');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    align-items: center;
+    z-index: -1;
+  }
+
+ 

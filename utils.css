@@ -1,0 +1,81 @@
+/**/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Borel&family=Fira+Sans:ital,wght@0,100;0,200;1,100&family=Roboto:wght@100&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;600;700&family=Borel&family=Fira+Sans:ital,wght@0,100;0,200;1,100&family=Roboto:wght@100&family=Varela+Round&display=swap');
+:root{
+    --main-bg-color:rgb(115, 128, 0);
+    --font1:'Baloo bhaina 2',cursive;
+    --font2:'Roboto' ,sans-serif;
+}
+
+.center{
+    text-align: center;
+}
+
+/*----------------font----------------------*/
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+ 
+
+
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+.mx-1{
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+.my-2{
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    padding: 0px 20px;
+    border-radius: 6px;
+    padding-Top:3px;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out; /*transition button ke sat kame karth hai*/
+    font-size: 16px;
+    font-family: var(--font1);
+    cursor: pointer; /*Cursor pointer aero ko le jate hai use cursor pointer kahate hai*/
+}
+
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.form-input{
+    padding: 0px 5px;
+    padding-Top:3px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0 13px;
+    font-family: var(--font1);
+}
+
+.form-box input, textarea{
+    width:50rem;
+    padding: 10px 1px;
+    max-width: 60rem;
+    margin: 2px;
+    border-radius: 5px;
+    /*font-family: var(--font1);*/
+    border: 2px solid var(--main-bg-color);
+}
+
